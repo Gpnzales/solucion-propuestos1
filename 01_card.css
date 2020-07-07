@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #01e585;
+}
+.card{
+   
+    height: 500px;
+    width: 550px;
+    background-color: white;
+    margin: 50px auto  0 auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card__imagen{
+    
+    width: 45%;
+    position: absolute;
+    left: -30px;
+    bottom: 30px;
+    top: 30px;
+    background-color: #9fe40b;
+    border-radius: 6px;
+    box-shadow: grey 0px 0px 20px ;
+}
+
+.letra1{
+    height: 30px;
+    padding-left: 25px;
+    padding-top: 20px;
+    color: white;
+}
+
+.letra2{
+    height: 30px;
+    padding-left:120px;
+    padding-top: 20px;
+    color: white;
+}
+
+
+.card_manzana{
+    width: 70%;
+    left: -30px;
+    position: relative;
+    top: 40px;
+}
+
+.card__imagenman{
+    height: 20%;
+    background-color: white;
+    position: relative;
+    top: 94px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    align-items: center;
+    padding-top: 25px;
+    padding-left:20px ;
+}
+
+.card__imagenman td{
+   
+    
+    padding-left: 30px;
+    margin: 30px;
+    align-content: center;
+}
+
+
+
+.bordes1{
+    
+    border: 2px solid #ececec;
+    border-radius: 5px;
+    
+ }
+
+.card__rotado{
+    width: 100%;
+    transform: rotate(-10deg);
+   
+}
+
+.card__descripcion{
+    
+    width: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    top: 30px;
+    background-color: #ffffff;
+}
+
+.card__nombre{
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: black;
+    padding-top: 5px;
+}
+
+.card__codigo{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 0.8rem;
+    color: grey;
+    padding-bottom: 15px;
+    padding-top: 10px;
+   
+}
+
+.card__precio{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 3.5rem;
+    color: red;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.card__precio small{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 1.5rem;
+    color: red;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.card__select{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 0.8rem;
+    color: grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card__beneficios{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 0.8rem;
+    color: grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card__lista {
+  
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 0.8rem;
+    color: grey;
+    padding-left: 15px; 
+    line-height: 1.1rem;;  
+     
+}
+
+.card__table{
+    width: 200px;
+    height: 50px;
+    padding-bottom: 15px;
+}
+
+
+
+.card__table td{
+    
+    padding-left: 10px;
+}
+
+.card__table .bordes{
+    
+   border: 1px solid;
+   border-radius: 5px;
+}
+
+.bordes{
+    
+    border: 1px solid;
+    border-radius: 5px;
+    
+ }
+
+.card__table img{
+    width: 70%;
+}
+
+.card__boton{
+    
+    background-color: #ff4546;
+    border-radius: 5px;
+    padding: 13px 40px;
+    box-shadow: ;
+    border: none;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: grey 0px 0px 20px ;
+
+}
+
+
